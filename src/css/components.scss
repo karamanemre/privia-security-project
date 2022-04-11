@@ -9,6 +9,29 @@
   }
 }
 
+.header-component {
+  height: 100vh;
+  background-image: url("../../public/img/Pattern.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .title-container{
+      margin-top: 5%;
+  }
+
+  .container {
+    .data-analystic-container {
+        width: 50%;
+     position:absolute;
+     bottom: 0px;
+     left:26% ;
+    }
+  }
+}
+
+
 .title-component{
   font-weight: 700;
   line-height: 69px;
@@ -39,6 +62,9 @@
   }
 }
 
+
+
+// PRICING Component
 .pricing-component{
   text-align: left;
   padding: 20px 0 0 20px;
@@ -53,5 +79,31 @@
   ul li::marker {
     content: '✓ ';
     color: green;
+  }
+}
+
+.content-component{
+  padding-top: 8rem;
+  margin: 0 auto;
+}
+
+
+
+// COMBINED CLIPART Component
+.combined-clipart-component{
+  position: relative;
+  width: max-content;
+  .interior{
+   position:absolute;
+   top:22px;
+   left: 22px;
+  }
+}
+
+//CONTENT Component
+.content-component{
+  .features-description{
+    width: 420px;
+    text-align: left;
   }
 }
