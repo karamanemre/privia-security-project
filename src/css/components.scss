@@ -1,0 +1,57 @@
+.navbar {
+  .items {
+    ul {
+      margin: auto 0;
+      li {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+.title-component{
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 1px;
+  .main-title{
+    font-family: 'Secular One', sans-serif;
+  }
+  .sub-title{
+    font-family: 'Arial' !important;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 50px;
+    letter-spacing:normal;
+  }
+}
+
+.data-analytics{
+  background-color: #fff;
+  border-radius: 10px 10px 0 0 ;
+  padding: 10px;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+      text-align: left;
+    }
+  }
+}
+
+.pricing-component{
+  text-align: left;
+  padding: 20px 0 0 20px;
+  border-radius: 10px;
+  width: 330px;
+  height: 350px;
+  ul{
+    li{
+      margin-left: -5%;
+    }
+  }
+  ul li::marker {
+    content: '✓ ';
+    color: green;
+  }
+}
