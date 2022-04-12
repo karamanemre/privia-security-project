@@ -19,16 +19,14 @@ function Navbar() {
           <Button
             text={"Login"}
             className={"btn btn-link"}
-            width={"auto"}
-            height={"25px"}
+            style={{width:"auto",height:"35px"}}
           />
         </div>
         <div className="">
           <Button
             text={"Start free trial"}
             className={"btn btn-light"}
-            width={"auto"}
-            height={"35px"}
+            style={{width:"auto",height:"35px"}}
           />
         </div>
       </div>

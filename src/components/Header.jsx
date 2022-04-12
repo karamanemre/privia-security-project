@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import DataAnalytics from "./DataAnalytics";
-import MiniTitle from "./MiniTitle";
+import DataAnalyticsTable from "./DataAnalyticsTable";
 import Navbar from "./Navbar";
 import Title from "./Title";
 
@@ -24,23 +23,22 @@ function Header() {
 
         <div className="d-flex justify-content-center mt-5">
           <Button
-            color={"#5B45E0"}
-            className={"btn btn-primary text-white"}
+            className={"btn btn-primary text-white bg-primary"}
             text={"Start free trial"}
-            width={"170px"}
-            height={"50px"}
-            margin={"0 20px 0 0"}
+            style={{ width: "170px", height: "50px", margin: "0 20px 0 0" }}
           />
           <Button
-            color={"#FFFFFF"}
-            className={"btn btn-primary text-dark"}
+            className={"btn btn-primary text-dark bg-white"}
             text={"View live demo"}
-            width={"170px"}
-            height={"50px"}
+            style={{
+              width: "170px",
+              height: "50px",
+              border: "none",
+            }}
           />
         </div>
         <div className="data-analystic-container">
-          <DataAnalytics />
+          <DataAnalyticsTable />
         </div>
       </div>
     </div>
