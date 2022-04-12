@@ -1,10 +1,10 @@
 import React from "react";
 
-function Button({ className, color, width, height, text,margin ,borderRadius}) {
+function Button({ className, text,style}) {
   return (
     <a
       className={`${className} d-flex justify-content-center align-items-center`}
-      style={{ width: width, height: height,backgroundColor:color,margin:margin ,borderRadius:borderRadius}}
+      style={style}
     >
       {text}
     </a>
