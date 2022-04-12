@@ -24,4 +24,11 @@
    .pricing-component{
        margin-bottom: 2rem;
    }
+
+   .footer-base-component{
+       .text{
+           width: min-content;
+           text-align: left;
+       }
+   }
 }

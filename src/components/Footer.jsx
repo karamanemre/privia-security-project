@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="footer-component d-flex justify-content-between flow-wrap container padding-top-5 padding-bottom-5">
       <div className="social-medias d-flex flex-column">
-        <div className="media-icon">
+        <div className="media-icon d-flex flow-wrap">
           <TwitterIcon style={{ color: "#1A8CD8", marginRight: "10px" }} />
           <FacebookIcon style={{ color: "#3B5998", marginRight: "10px" }} />
           <LinkedInIcon style={{ color: "#0976B4" }} />
