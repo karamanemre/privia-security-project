@@ -1,25 +1,29 @@
 import React from "react";
+import Brands from "./Brands";
+import CommentBox from "./CommentBox";
 import CornerTitle from "./CornerTitle";
 import SuccessLine from "./SuccessLine";
 
 function Collaborate() {
+  const imgPath = process.env.REACT_APP_COLLABORATE_IMAGE_FILE_PATH;
+
   return (
     <div className="collaborate-component">
       <div className="row">
         <div className="col-6">
           <div className="images">
-            <img src="./img/collaborate/img1.png" alt="" className="img1" />
-            <img src="./img/collaborate/img2.png" alt="" className="img2" />
-            <img src="./img/collaborate/img3.png" alt="" className="img3" />
+            <img src={`${imgPath}/img1.png`} alt="" className="img1" />
+            <img src={`${imgPath}/img2.png`} alt="" className="img2" />
+            <img src={`${imgPath}/img3.png`} alt="" className="img3" />
             <img
               src="./img/collaborate/rectangle.png"
               alt=""
               className="rectangle"
             />
-            <img src="./img/collaborate/line.png" alt="" className="line" />
+            <img src={`${imgPath}/line.png`} alt="" className="line" />
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 ">
           <div className="d-flex">
             <CornerTitle
               miniTitle={"Collaborate"}
@@ -31,7 +35,7 @@ function Collaborate() {
             Self-service data analytics software that lets you create visually
             appealing data visualizations and insightful dashboards in minutes.
           </p>
-          <div className="row">
+          <div className="row collaborate-success-items">
             <div className="col-6 mb-2">
               <SuccessLine text={"Organize your data"} />
             </div>
@@ -50,7 +54,37 @@ function Collaborate() {
           </div>
         </div>
         <div className="mt-5">
-            <p>More than 1.8 million people across 50,000 companies choose Oval</p>
+          <p>
+            More than 1.8 million people across 50,000 companies choose Oval
+          </p>
+        </div>
+        <div className="mt-5">
+          <Brands />
+        </div>
+        <div className="d-flex justify-content-center flex-wrap padding-top-5">
+          <CommentBox
+            brandImage={`${imgPath}/shopify.png`}
+            profileImage={`${imgPath}/comment-box-profile.png`}
+            userTitle={"Product Designer"}
+            username={"Harold Tyler"}
+            comment={
+              "I received great customer service from the specialists who helped me. I would recommend to anyone who wants great dashboard that has great quality."
+            }
+          />
+          <CommentBox
+            brandImage={`${imgPath}/airbnb.png`}
+            profileImage={`${imgPath}/comment-box-profile-image2.png`}
+            userTitle={"Motion design / animator"}
+            username={"Ryan Holmes"}
+            comment={
+              "My experience with this platform so far has been great. Everything is easy, from creating visualization, scheduling, collaboration and many more."
+            }
+          />
+        </div>
+        <div className="mt-3">
+          <a href="">
+            <strong>{"See all Testimonial >"} </strong>
+          </a>
         </div>
       </div>
     </div>
