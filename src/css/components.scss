@@ -17,93 +17,173 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  .title-container{
-      margin-top: 5%;
+  .title-container {
+    margin-top: 5%;
   }
 
   .container {
     .data-analystic-container {
-        width: 50%;
-     position:absolute;
-     bottom: 0px;
-     left:26% ;
+      width: 50%;
+      position: absolute;
+      bottom: 0px;
+      left: 26%;
     }
   }
 }
 
-
-.title-component{
+.title-component {
   font-weight: 700;
   line-height: 69px;
   letter-spacing: 1px;
-  .main-title{
-    font-family: 'Secular One', sans-serif;
+  .main-title {
+    font-family: "Secular One", sans-serif;
   }
-  .sub-title{
-    font-family: 'Arial' !important;
+  .sub-title {
+    font-family: "Arial" !important;
     font-size: 20px;
     font-weight: 200;
     line-height: 50px;
-    letter-spacing:normal;
+    letter-spacing: normal;
   }
 }
 
-.data-analytics{
+.data-analytics {
   background-color: #fff;
-  border-radius: 10px 10px 0 0 ;
+  border-radius: 10px 10px 0 0;
   padding: 10px;
-  .header{
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .title{
+    .title {
       text-align: left;
     }
   }
 }
 
-
-
 // PRICING Component
-.pricing-component{
+.pricing-component {
   text-align: left;
   padding: 20px 0 0 20px;
   border-radius: 10px;
   width: 330px;
   height: 350px;
-  ul{
-    li{
+  ul {
+    li {
       margin-left: -5%;
     }
   }
   ul li::marker {
-    content: '✓ ';
+    content: "✓ ";
     color: green;
   }
 }
 
-.content-component{
+.content-component {
   padding-top: 8rem;
   margin: 0 auto;
 }
 
-
-
 // COMBINED CLIPART Component
-.combined-clipart-component{
+.combined-clipart-component {
   position: relative;
   width: max-content;
-  .interior{
-   position:absolute;
-   top:22px;
-   left: 22px;
+  .interior {
+    position: absolute;
+    top: 22px;
+    left: 22px;
   }
 }
 
-//CONTENT Component
-.content-component{
-  .features-description{
-    width: 420px;
+//FEATURES Component  TODO width: 50%;
+.features-component {
+  padding-bottom: 10rem;
+  .features-description {
+    width: 450px;
+    text-align: left;
+  }
+
+  .features-button {
+    width: auto;
+    height: 35px;
+    color: "#5B45E0";
+    margin: -12px 0 0 -13px;
+  }
+}
+
+//DATA ANALYTICS CARD Component
+.data-analytics-card-component {
+  position: relative;
+  width: max-content;
+  .card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 225px;
+    height: 275px;
+    padding: 1rem;
+    border-radius: 15px;
+    .graph-container {
+      margin-top: 1rem;
+      position: relative;
+      .blue-oval {
+        position: absolute;
+        top: 0;
+        left: 11px;
+        img {
+          width: 80px;
+        }
+        .white-oval {
+          position: absolute;
+          top: -5px;
+          left: -10px;
+          text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          small {
+            font-size: 10px;
+            position: absolute;
+            top: 15px;
+            left: 23px;
+          }
+        }
+      }
+
+      .white-oval-2 {
+        position: absolute;
+        bottom: -38px;
+        right: 15px;
+        text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        img {
+          width: 80px;
+        }
+        small {
+          font-size: 10px;
+          position: absolute;
+          top: 15px;
+          left: 23px;
+        }
+      }
+    }
+  }
+
+  .mini-card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: max-content;
+    width: 150px;
+    padding: 2rem;
+    border-radius: 15px;
+    position: absolute;
+    top: -40px;
+    right: -120px;
+    background-color: #fff;
+  }
+}
+
+//ANALYTICS Component
+.analytics-component {
+  padding-bottom: 5rem;
+  padding-top: 10rem;
+
+  .analytics-body {
+    display: flex;
+    flex-direction: column;
     text-align: left;
   }
 }
