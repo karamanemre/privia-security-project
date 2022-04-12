@@ -2,6 +2,15 @@ import React from "react";
 import MiniTitle from "./MiniTitle";
 import Title from "./Title";
 
+{/**
+
+Merges header and miniheader
+
+ex;
+----Features
+        Our solution 
+        for your business**/}
+
 function CornerTitle({ miniTitle, titleone, titletwo }) {
   return (
     <div style={{textAlign:"left"}}>

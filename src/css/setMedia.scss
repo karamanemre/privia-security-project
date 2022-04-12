@@ -1,0 +1,27 @@
+
+
+@media only screen and (max-width: 1000px) {
+    .row{
+        .col-6{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .col-4{
+            width: 100%;
+        }
+        .features-itemm{
+            width: 100%;
+        }
+    }
+
+    .collaborate-success-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .pricing-component{
+       margin-bottom: 2rem;
+   }
+}

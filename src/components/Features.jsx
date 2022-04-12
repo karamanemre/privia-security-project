@@ -2,7 +2,11 @@ import React from "react";
 import Button from "./Button";
 import CombinedClipart from "./CombinedClipart";
 import CornerTitle from "./CornerTitle";
-import Title from "./Title";
+
+
+{/**
+Features component
+**/}
 
 function Features() {
   return (
@@ -24,95 +28,103 @@ function Features() {
             minutes.
           </p>
         </div>
-        <div className="col-6 d-flex flex-column mt-5">
-          <div className="d-flex mb-4">
-            <CombinedClipart
-              exteriorPicture={"./img/featuresImg/Base.png"}
-              interiorPicture={"./img/featuresImg/yellow-img1.png"}
-            />
-            <div className="d-flex flex-column margin-l-2">
-              <Title
-                titleone={"Analyze your data"}
-                subtitle={
-                  "Create reports with an easy to use drag-and-drop designer."
-                }
-                fontSize={"15px"}
-                lineHeight={"20px"}
-                mainTitleClass={"d-flex justify-content-start"}
-              />
-              <div className="d-flex justify-content-start">
-                <Button
-                  text={"Learn more >"}
-                  className={"btn btn-link features-button"}
-                />
-              </div>
-            </div>
-          </div>
+      </div>
+      <div className="row mt-5">
 
-          <div className="d-flex">
-            <CombinedClipart
-              exteriorPicture={"./img/featuresImg/base-blue.png"}
-              interiorPicture={"./img/featuresImg/blue-graph.png"}
-            />
-            <div className="d-flex flex-column margin-l-2">
-              <Title
-                titleone={"Analyze your data"}
-                subtitle={
-                  "Create reports with an easy to use drag-and-drop designer."
-                }
-                fontSize={"15px"}
-                lineHeight={"20px"}
-                mainTitleClass={"d-flex justify-content-start"}
+        {/* Features-1 */}
+        <div className="col-6 d-flex justify-content-start">
+          <CombinedClipart
+            exteriorPicture={"./img/featuresImg/Base.png"}
+            interiorPicture={"./img/featuresImg/yellow-img1.png"}
+          />
+          <div className="d-flex flex-column margin-l-2">
+            <div className="text-align-left">
+              <strong>Analyze your data</strong>
+              <p className="text-muted">
+                Create reports with an easy to use drag-and-drop designer.
+              </p>
+            </div>
+
+            <div className="d-flex justify-content-start">
+              <Button
+                text={"Learn more >"}
+                className={"btn btn-link features-button"}
               />
-              <div className="d-flex justify-content-start">
-                <Button text={"Learn more >"} className={"btn btn-link features-button"} />
-              </div>
             </div>
           </div>
         </div>
-        <div className="col-6 mt-5">
-          <div className="d-flex mb-4 ">
-            <CombinedClipart
-              exteriorPicture={"./img/featuresImg/Base.png"}
-              interiorPicture={"./img/featuresImg/security.png"}
-            />
-            <div className="d-flex flex-column margin-l-2">
-              <Title
-                titleone={"Analyze your data"}
-                subtitle={
-                  "Create reports with an easy to use drag-and-drop designer."
-                }
-                fontSize={"15px"}
-                lineHeight={"20px"}
-                mainTitleClass={"d-flex justify-content-start"}
-              />
-              <div className="d-flex justify-content-start">
-                <Button text={"Learn more >"} className={"btn btn-link features-button"} />
-              </div>
-            </div>
-          </div>
 
-          <div className="d-flex align-items-center">
-            <CombinedClipart
-              exteriorPicture={"./img/featuresImg/base-blue.png"}
-              interiorPicture={"./img/featuresImg/hand.png"}
-            />
-            <div className="d-flex flex-column margin-l-2">
-              <Title
-                titleone={"Analyze your data"}
-                subtitle={
-                  "Create reports with an easy to use drag-and-drop designer."
-                }
-                fontSize={"15px"}
-                lineHeight={"20px"}
-                mainTitleClass={"d-flex justify-content-start"}
+        {/* Features-2 */}
+        <div className="col-6 d-flex justify-content-start mb-5">
+          <CombinedClipart
+            exteriorPicture={"./img/featuresImg/Base.png"}
+            interiorPicture={"./img/featuresImg/security.png"}
+          />
+          <div className="d-flex flex-column margin-l-2">
+            <div className="text-align-left">
+              <strong>Analyze your data</strong>
+              <p className="text-muted">
+                Create reports with an easy to use drag-and-drop designer.
+              </p>
+            </div>
+
+            <div className="d-flex justify-content-start">
+              <Button
+                text={"Learn more >"}
+                className={"btn btn-link features-button"}
               />
-              <div className="d-flex justify-content-start">
-                <Button text={"Learn more >"} className={"btn btn-link features-button"} />
-              </div>
             </div>
           </div>
         </div>
+
+
+        {/* Features-4 */}
+        <div className="col-6 d-flex justify-content-start">
+          <CombinedClipart
+            exteriorPicture={"./img/featuresImg/base-blue.png"}
+            interiorPicture={"./img/featuresImg/blue-graph.png"}
+          />
+          <div className="d-flex flex-column margin-l-2">
+            <div className="text-align-left">
+              <strong>Analyze your data</strong>
+              <p className="text-muted">
+                Create reports with an easy to use drag-and-drop designer.
+              </p>
+            </div>
+
+            <div className="d-flex justify-content-start">
+              <Button
+                text={"Learn more >"}
+                className={"btn btn-link features-button"}
+              />
+            </div>
+          </div>
+        </div>
+
+
+        {/* Features-4 */}
+        <div className="col-6 d-flex justify-content-start">
+          <CombinedClipart
+            exteriorPicture={"./img/featuresImg/base-blue.png"}
+            interiorPicture={"./img/featuresImg/hand.png"}
+          />
+          <div className="d-flex flex-column margin-l-2">
+            <div className="text-align-left">
+              <strong>Analyze your data</strong>
+              <p className="text-muted">
+                Create reports with an easy to use drag-and-drop designer.
+              </p>
+            </div>
+
+            <div className="d-flex justify-content-start">
+              <Button
+                text={"Learn more >"}
+                className={"btn btn-link features-button"}
+              />
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );

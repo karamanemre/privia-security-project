@@ -1,36 +1,48 @@
 import React from "react";
 import Button from "./Button";
+import SuccessLine from "./SuccessLine";
+import DangerousIcon from '@mui/icons-material/Dangerous';
 
-function Pricing({ color }) {
+function Pricing({
+  color,
+  price,
+  period,
+  packageName,
+  description,
+  properties,
+  textColor
+}) {
   return (
     <div
       className="pricing-component d-flex flex-column"
-      style={{ backgroundColor: color }}
+      style={{ backgroundColor: color,color:textColor }}
     >
       <div className="head">
-        <span>$23</span> /month
+        <span>{price}</span> /{period}
       </div>
       <div className="description">
-        <strong>Standard</strong>
-        <p>All the basics for businesses that are just getting started.</p>
+        <strong>{packageName}</strong>
+        <p>{description}</p>
       </div>
       <hr />
       <div className="body">
-        <ul>
-          <li>Single project use</li>
-          <li>Basic dashboard</li>
-          <li>All components included</li>
-        </ul>
+        { properties && properties.map((p) => (
+          <div className="mb-2">
+            <SuccessLine text={p} />
+          </div>
+        ))}
+        {!properties && <div><DangerousIcon /> Paket içeriği bulunamadı</div>   }
       </div>
       <div className="button ">
         <Button
           style={{
-            backgroundColor: "#ffff",
             borderRadius: "5px",
             height: "35px",
+            fontWeight:"bold"
           }}
           text={"Start free trial"}
-          className={"text-dark"}
+          className={"text-dark bg-white"}
+
         />
       </div>
     </div>

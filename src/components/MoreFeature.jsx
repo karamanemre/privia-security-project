@@ -14,7 +14,7 @@ function MoreFeature() {
       </div>
       <div className="row">
         {/* Column-4 */}
-        <div className="col-4 d-flex flex-column">
+        <div className="col-4 d-flex flex-column flex-wrap">
           {/* Firstly features */}
           <div className="mb-4">
             <div className="icon">

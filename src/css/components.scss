@@ -68,14 +68,11 @@
   border-radius: 10px;
   width: 330px;
   height: 350px;
-  ul {
-    li {
-      margin-left: -5%;
-    }
-  }
-  ul li::marker {
-    content: "✓ ";
-    color: green;
+  position: relative;
+  .button{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
   }
 }
 
@@ -228,10 +225,39 @@
       left: 200px;
     }
   }
-
   .description{
     text-align: left;
     width: 400px;
     margin-top: 2rem;
   }
+}
+
+
+//COMMENTBOX Component
+.commentbox-component{
+  .card{
+    width: 569px;
+    height: 348px;
+    text-align: left;
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+}
+
+//BUTTON Component
+.button-component{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
+.footer-component{
+.social-medias{
+  position: relative;
+  .typography{
+    position: absolute;
+    bottom: 10px;
+  }
+}
 }
