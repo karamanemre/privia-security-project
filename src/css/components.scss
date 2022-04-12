@@ -97,7 +97,6 @@
 
 //FEATURES Component  TODO width: 50%;
 .features-component {
-  padding-bottom: 10rem;
   .features-description {
     width: 450px;
     text-align: left;
@@ -178,12 +177,61 @@
 
 //ANALYTICS Component
 .analytics-component {
-  padding-bottom: 5rem;
-  padding-top: 10rem;
-
   .analytics-body {
     display: flex;
     flex-direction: column;
     text-align: left;
+  }
+}
+
+
+//MORE FEATURES Component
+.more-feature{
+  .icon{
+    padding-bottom: 1rem;
+  }
+  .title{
+    width: 550px;
+    padding-bottom: 6rem;
+  }
+  .description{
+    p{
+      width: 250px;
+      text-align: left;
+    }
+  }
+}
+
+
+//COLLABORATE Component
+.collaborate-component{
+  z-index: -10;
+  .images{
+    background-color: #F7FDFF;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    .img1{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .img2{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .img3{
+      position: absolute;
+      bottom: 75px;
+      left: 200px;
+    }
+  }
+
+  .description{
+    text-align: left;
+    width: 400px;
+    margin-top: 2rem;
   }
 }
