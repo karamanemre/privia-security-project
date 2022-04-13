@@ -4,8 +4,12 @@ import SearchIcon from "@mui/icons-material/Search";
 import Navbar from "../components/Navbar";
 import MiniCard from "../components/MiniCard";
 import DescriptionIcon from "@mui/icons-material/Description";
+import Article from "../components/Article";
+import TrialVersionCard from "../components/TrialVersionCard";
 
 function ResourcesPage() {
+  const imgPath = process.env.REACT_APP_RESOURCES_IMAGE_FILE_PATH;
+
   return (
     <div className="resources-page">
       <Navbar />
@@ -60,6 +64,61 @@ function ResourcesPage() {
               titleone={"Most insighful articles"}
               titletwo={"for start off"}
             />
+          </div>
+          <div className="d-flex justify-content-center mt-5 padding-bottom-5">
+            <div>
+              <Article
+                title={"Brand Secrets for Standing Out in a Crowded World"}
+                content={`Aliquam ut justo fringilla, porta lectus ac, aliquam elit.
+               Sed posuere mi vel porta aliquam. Nullam in felis pretium, faucibus nunc quis, semper purus.  Aliquam sit…`}
+                date={"14 April 2022"}
+                fieldName={"Entrepreneurship"}
+                src={`${imgPath}/article1.png`}
+              />
+
+              <Article
+                title={"Brand Secrets for Standing Out in a Crowded World"}
+                content={`Aliquam ut justo fringilla, porta lectus ac, aliquam elit.
+               Sed posuere mi vel porta aliquam. Nullam in felis pretium, faucibus nunc quis, semper purus.  Aliquam sit…`}
+                date={"14 April 2022"}
+                fieldName={"Entrepreneurship"}
+                src={`${imgPath}/article2.png`}
+              />
+
+              <Article
+                title={"Brand Secrets for Standing Out in a Crowded World"}
+                content={`Aliquam ut justo fringilla, porta lectus ac, aliquam elit.
+               Sed posuere mi vel porta aliquam. Nullam in felis pretium, faucibus nunc quis, semper purus.  Aliquam sit…`}
+                date={"14 April 2022"}
+                fieldName={"Entrepreneurship"}
+                src={`${imgPath}/article3.png`}
+              />
+
+              <Article
+                title={"Brand Secrets for Standing Out in a Crowded World"}
+                content={`Aliquam ut justo fringilla, porta lectus ac, aliquam elit.
+               Sed posuere mi vel porta aliquam. Nullam in felis pretium, faucibus nunc quis, semper purus.  Aliquam sit…`}
+                date={"14 April 2022"}
+                fieldName={"Entrepreneurship"}
+                src={`${imgPath}/article4.png`}
+              />
+
+              <Article
+                title={"Brand Secrets for Standing Out in a Crowded World"}
+                content={`Aliquam ut justo fringilla, porta lectus ac, aliquam elit.
+               Sed posuere mi vel porta aliquam. Nullam in felis pretium, faucibus nunc quis, semper purus.  Aliquam sit…`}
+                date={"14 April 2022"}
+                fieldName={"Entrepreneurship"}
+                src={`${imgPath}/article5.png`}
+              />
+
+              <a href="#">
+                <strong>{"See more Articles >"}</strong>
+              </a>
+            </div>
+          </div>
+          <div>
+            <TrialVersionCard/>
           </div>
         </div>
       </div>
