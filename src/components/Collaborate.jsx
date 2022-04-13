@@ -6,6 +6,7 @@ import SuccessLine from "./SuccessLine";
 
 function Collaborate() {
   const imgPath = process.env.REACT_APP_COLLABORATE_IMAGE_FILE_PATH;
+  const brandsImage = process.env.REACT_APP_BRANDS_IMAGE_FILE_PATH;
 
   return (
     <div className="collaborate-component">
@@ -59,7 +60,16 @@ function Collaborate() {
           </p>
         </div>
         <div className="mt-5">
-          <Brands />
+          <Brands
+            brandsImage={[
+              `${brandsImage}/slack.png`,
+              `${brandsImage}/hubspot.png`,
+              `${brandsImage}/square.png`,
+              `${brandsImage}/servicetitan.png`,
+              `${brandsImage}/cagniant.png`,
+              `${brandsImage}/grubhub.png`,
+            ]}
+          />
         </div>
         <div className="d-flex justify-content-center flex-wrap padding-top-5">
           <CommentBox

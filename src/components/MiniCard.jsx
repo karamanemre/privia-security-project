@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function MiniCard({icon,title,content,buttonText,buttonLink}) {
   return (
-    <div className='card mini-card-component'>
+    <div className='card mini-card-component mb-3'>
         <div className="title d-flex justify-content">
             <span>{icon}</span> <h4>{title}</h4>
         </div>

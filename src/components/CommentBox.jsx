@@ -1,10 +1,10 @@
 import React from 'react'
 
-function CommentBox({profileImage,brandImage,comment,username,userTitle}) {
+function CommentBox({profileImage,brandImage,comment,username,userTitle,cardWith}) {
 
   return (
-    <div className='commentbox-component d-flex justify-content-center'>
-        <div className="card">
+    <div className='commentbox-component d-flex justify-content-center' >
+        <div className="card" style={{width:cardWith}}>
             <div className="head">
                 <img src={brandImage} alt="" width={"120px"} />
             </div>

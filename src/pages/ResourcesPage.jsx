@@ -6,6 +6,8 @@ import MiniCard from "../components/MiniCard";
 import DescriptionIcon from "@mui/icons-material/Description";
 import Article from "../components/Article";
 import TrialVersionCard from "../components/TrialVersionCard";
+import DriveFileMoveIcon from '@mui/icons-material/DriveFileMove';
+import ConstructionIcon from '@mui/icons-material/Construction';
 
 function ResourcesPage() {
   const imgPath = process.env.REACT_APP_RESOURCES_IMAGE_FILE_PATH;
@@ -40,20 +42,20 @@ function ResourcesPage() {
               icon={<DescriptionIcon />}
             />
             <MiniCard
-              title={"Articles"}
+              title={"Guides"}
               content={
                 "Our best tips for launching and growing your creative business online."
               }
               buttonText={"Learn More"}
-              icon={<DescriptionIcon />}
+              icon={<DriveFileMoveIcon />}
             />
             <MiniCard
-              title={"Articles"}
+              title={"Tools"}
               content={
                 "Our best tips for launching and growing your creative business online."
               }
               buttonText={"Learn More"}
-              icon={<DescriptionIcon />}
+              icon={<ConstructionIcon />}
             />
           </div>
         </div>
