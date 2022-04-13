@@ -25,6 +25,24 @@
        margin-bottom: 2rem;
    }
 
+   .prices-container{
+       display: flex;
+       justify-content: center !important;
+       
+   }
+
+   .pricing-page{
+       .pricing-page-title{
+        display: flex;
+        justify-content: center !important;
+       }
+    .statement-card-container{
+        display: flex;
+       justify-content: center !important;
+    }
+   }
+  
+
    .footer-base-component{
        .text{
            width: min-content;

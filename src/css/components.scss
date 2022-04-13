@@ -251,7 +251,7 @@
   }
 }
 
-
+//FOOTER Component
 .footer-component{
 .social-medias{
   position: relative;
@@ -260,4 +260,14 @@
     bottom: 10px;
   }
   }
+}
+
+
+//COMMENTBOX Component
+.mini-card-component{
+  width: 358px;
+  height: 196px;
+  padding: 2rem;
+  text-align: left;
+  border-radius: 1rem;
 }
