@@ -1,56 +1,74 @@
-
-
 @media only screen and (max-width: 1000px) {
-    .row{
-        .col-6{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 2rem;
-        }
-        .col-4{
-            width: 100%;
-        }
-        .features-itemm{
-            width: 100%;
-        }
+  .row {
+    .col-6 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
     }
-
-    .collaborate-success-items{
-        display: flex;
-        flex-direction: column;
+    .col-4 {
+      width: 100%;
     }
-
-   .pricing-component{
-       margin-bottom: 2rem;
-   }
-
-   .prices-container{
-       display: flex;
-       justify-content: center !important;
-       
-   }
-
-   .pricing-page{
-       .pricing-page-title{
-        display: flex;
-        justify-content: center !important;
-       }
-    .statement-card-container{
-        display: flex;
-       justify-content: center !important;
+    .features-itemm {
+      width: 100%;
     }
-   }
-  
+  }
 
-   .footer-base-component{
-       .text{
-           width: min-content;
-           text-align: left;
-       }
-   }
+  .collaborate-success-items {
+    display: flex;
+    flex-direction: column;
+  }
 
-   .article-component{
+  .pricing-component {
+    margin-bottom: 2rem;
+  }
+
+  .prices-container {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .pricing-page {
+    .pricing-page-title {
+      display: flex;
+      justify-content: center !important;
+    }
+    .statement-card-container {
+      display: flex;
+      justify-content: center !important;
+    }
+  }
+
+  .footer-base-component {
+    .text {
+      width: min-content;
+      text-align: left;
+    }
+  }
+
+  .article-component {
     width: 500px;
-   }
+  }
+
+  .my-masonry-grid {
+    margin-left: -30px; /* gutter size offset */
+  }
+
+  .navbar-menu-items{
+    .items{
+        display: none;
+    }
+  }
+
+  .login-signup-button{
+    .item{
+        display: none;
+    }
+  }
+
+  .navbar{
+      .right-menu{
+        display: inline-block;
+      }
+  }
 }

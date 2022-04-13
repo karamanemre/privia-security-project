@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      {(pathname !== "/" && pathname !== "/resources") && <Navbar />}
+      {/* {(pathname !== "/" && pathname !== "/resources") && <Navbar />} */}
       <Dashboard />
       <Footer />
     </div>

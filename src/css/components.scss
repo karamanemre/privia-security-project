@@ -1,38 +1,45 @@
 .navbar {
+  .right-menu {
+    display: none;
+    cursor: pointer;
+  }
+}
+
+.navbar-menu-items {
   .items {
     ul {
       margin: auto 0;
-      .item{
+      .item {
         margin-right: 15px;
         cursor: pointer;
       }
-      .products-item{
+      .products-item {
         position: relative;
-        &:hover .product-inner-properties{
+        &:hover .product-inner-properties {
           visibility: visible;
         }
       }
     }
   }
 
-  .product-inner-properties{
+  .product-inner-properties {
     position: absolute;
     visibility: hidden;
     padding: 0.5rem;
-    background-color: #E8F4FF;
+    background-color: #e8f4ff;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     width: 80px;
     height: 78px;
     left: -10px;
-    span{
+    span {
       border: 1px solid rgb(199, 199, 199);
       border-top-style: none;
       border-right-style: none;
       border-left-style: none;
     }
-    .product-inner-properties-bottom{
+    .product-inner-properties-bottom {
       border-bottom-style: none;
     }
   }
@@ -98,7 +105,7 @@
   width: 330px;
   height: 350px;
   position: relative;
-  .button{
+  .button {
     position: absolute;
     bottom: 10px;
     width: 90%;
@@ -210,61 +217,58 @@
   }
 }
 
-
 //MORE FEATURES Component
-.more-feature{
-  .icon{
+.more-feature {
+  .icon {
     padding-bottom: 1rem;
   }
-  .title{
+  .title {
     width: 550px;
     padding-bottom: 6rem;
   }
-  .description{
-    p{
+  .description {
+    p {
       width: 250px;
       text-align: left;
     }
   }
 }
 
-
 //COLLABORATE Component
-.collaborate-component{
+.collaborate-component {
   z-index: -10;
-  .images{
-    background-color: #F7FDFF;
+  .images {
+    background-color: #f7fdff;
     position: relative;
     height: 400px;
     width: 400px;
     border-radius: 200px;
-    .img1{
+    .img1 {
       position: absolute;
       top: 0;
       left: 0;
     }
-    .img2{
+    .img2 {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .img3{
+    .img3 {
       position: absolute;
       bottom: 75px;
       left: 200px;
     }
   }
-  .description{
+  .description {
     text-align: left;
     width: 400px;
     margin-top: 2rem;
   }
 }
 
-
 //COMMENTBOX Component
-.commentbox-component{
-  .card{
+.commentbox-component {
+  .card {
     width: 569px;
     height: 348px;
     text-align: left;
@@ -274,26 +278,25 @@
 }
 
 //BUTTON Component
-.button-component{
-  &:hover{
+.button-component {
+  &:hover {
     cursor: pointer;
   }
 }
 
 //FOOTER Component
-.footer-component{
-.social-medias{
-  position: relative;
-  .typography{
-    position: absolute;
-    bottom: 10px;
-  }
+.footer-component {
+  .social-medias {
+    position: relative;
+    .typography {
+      position: absolute;
+      bottom: 10px;
+    }
   }
 }
 
-
 //MINI CARD Component
-.mini-card-component{
+.mini-card-component {
   width: 358px;
   height: 196px;
   padding: 2rem;
@@ -301,30 +304,44 @@
   border-radius: 1rem;
 }
 
-
 //ARTICLE Component
-.article-component{
+.article-component {
   width: 943px;
   height: auto;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 2rem;
   border-radius: 0.5rem;
   border: 1px solid rgb(228, 228, 228);
-  .body{
+  .body {
     text-align: left;
     margin-left: 3rem;
   }
 }
 
-
 //TRIAL VERSION CARD Component
-.trial-version-component{
-  background-color: #F5F6F9;
+.trial-version-component {
+  background-color: #f5f6f9;
   padding: 8rem;
-  .btn{
+  .btn {
     width: 170px;
     height: 60px;
     border: none;
-    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
+
+.social-media-comment-card {
+  width: 456px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid rgb(218, 218, 218);
+  .username-name {
+    margin-left: 0.5rem;
+    .username {
+      font-size: smaller;
+      text-align: left;
+    }
   }
 }
