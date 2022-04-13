@@ -1,27 +1,19 @@
 import React from "react";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 
-function Brands() {
+function Brands({ brandsImage }) {
   return (
-    <div className="brands-component d-flex justify-content-around ">
-      <div className="brand ">
-        <AcUnitIcon fontSize="large" /> <strong>Slack</strong>
-      </div>
-      <div className="brand">
-        <img src="./img/collaborate/brand4.png" alt="" /> <strong>Square</strong> 
-      </div>
-      <div className="brand">
-        {" "}
-        <img src="./img/collaborate/brand3.png" alt="" />{" "} <strong>ServiceTitan</strong>
-      </div>
-      <div className="brand">
-        {" "}
-        <img src="./img/collaborate/brand2.png" alt="" />
-      </div>
-      <div className="brand">
-        {" "}
-        <img src="./img/collaborate/brand1.png" alt="" />
-      </div>
+    <div className="brands-component d-flex justify-content-around align-items-center flex-wrap">
+      {brandsImage &&
+        brandsImage.map((brand) => (
+          <div className="brand">
+            <img
+              src={brand}
+              alt=""
+              width={"126px"}
+            />
+          </div>
+        ))}
     </div>
   );
 }
