@@ -2,9 +2,38 @@
   .items {
     ul {
       margin: auto 0;
-      li {
+      .item{
         margin-right: 15px;
+        cursor: pointer;
       }
+      .products-item{
+        position: relative;
+        &:hover .product-inner-properties{
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  .product-inner-properties{
+    position: absolute;
+    visibility: hidden;
+    padding: 0.5rem;
+    background-color: #E8F4FF;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 78px;
+    left: -10px;
+    span{
+      border: 1px solid rgb(199, 199, 199);
+      border-top-style: none;
+      border-right-style: none;
+      border-left-style: none;
+    }
+    .product-inner-properties-bottom{
+      border-bottom-style: none;
     }
   }
 }
