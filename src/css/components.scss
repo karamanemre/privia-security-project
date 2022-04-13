@@ -263,11 +263,39 @@
 }
 
 
-//COMMENTBOX Component
+//MINI CARD Component
 .mini-card-component{
   width: 358px;
   height: 196px;
   padding: 2rem;
   text-align: left;
   border-radius: 1rem;
+}
+
+
+//ARTICLE Component
+.article-component{
+  width: 943px;
+  height: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(228, 228, 228);
+  .body{
+    text-align: left;
+    margin-left: 3rem;
+  }
+}
+
+
+//TRIAL VERSION CARD Component
+.trial-version-component{
+  background-color: #F5F6F9;
+  padding: 8rem;
+  .btn{
+    width: 170px;
+    height: 60px;
+    border: none;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
 }
