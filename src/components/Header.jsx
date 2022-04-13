@@ -7,10 +7,11 @@ import Title from "./Title";
 function Header() {
   return (
     <div className="header-component">
-      <div className="container">
-        <div>
+      
           <Navbar />
-        </div>
+       
+      <div className="container">
+       
         <div className="title-container">
           <Title
             titleone={"Powerful analytics tools "}
