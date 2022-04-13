@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-function Logo({src,alt,height,width}) {
+function Logo({ src, alt, height, width }) {
   return (
-    <img src={src} alt={alt ? alt : "image"} height={height} width={width} />
-  )
+    <Link to={"/"}>
+      <img src={src} alt={alt ? alt : "image"} height={height} width={width} />
+    </Link>
+  );
 }
 
-export default Logo
+export default Logo;
