@@ -3,8 +3,9 @@ import Button from "../Button";
 import CornerTitle from "../CornerTitle";
 import CombinedClipart from "../ShapeTools/CombinedClipart";
 
+
 {/**
-Features component
+  HomePage items
 **/}
 
 function Features() {

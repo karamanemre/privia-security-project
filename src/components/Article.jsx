@@ -1,5 +1,11 @@
 import React from "react";
 
+
+{/**
+  Article
+**/}
+
+
 function Article({content,title,date,fieldName,src}) {
   return (
     <div className="article-component d-flex justify-content-center align-items-center mb-3">

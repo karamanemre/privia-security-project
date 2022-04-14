@@ -1,5 +1,9 @@
 import React from 'react'
 
+{/**
+Sort for elements
+**/}
+
 function FooterBaseTemplate({title,subtitles}) {
   return (
     <div className='d-flex flex-column flow-wrap footer-base-component'>

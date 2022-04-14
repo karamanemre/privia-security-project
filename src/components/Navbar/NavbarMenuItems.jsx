@@ -4,6 +4,11 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Button from "../Button";
 
+
+{/**
+  Navbar elements
+**/}
+
 function NavbarMenuItems({listOrder}) {
   const [isMove, setIsMove] = useState(false);
 

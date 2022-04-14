@@ -2,6 +2,11 @@ import React from "react";
 import Pricing from "../Cards/Pricing";
 import Title from "../Title";
 
+
+{/**
+  HomePage and Resources item
+**/}
+
 function PricingGeneralFeatures() {
   return (
     <div>

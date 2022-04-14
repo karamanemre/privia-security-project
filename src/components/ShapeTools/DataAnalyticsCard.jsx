@@ -1,6 +1,12 @@
 import React from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
+
+{/**
+   Data Analytics Card
+**/}
+
+
 function DataAnalyticsCard({ style }) {
   return (
     <div className="data-analytics-card-component">

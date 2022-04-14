@@ -1,5 +1,15 @@
 import React from "react";
 
+
+{/**
+
+  miniheader
+
+ex;
+----Features
+**/}
+
+
 function MiniTitle({ title,hrWidth }) {
   return (
     <div className="d-flex align-items-center">

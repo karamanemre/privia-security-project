@@ -1,7 +1,16 @@
 import React from 'react'
 
-function CommentBox({profileImage,brandImage,comment,username,userTitle,cardWith}) {
 
+{/**
+Cart template to show comments made
+ex.
+Title:      Barand IMG
+Content:    I received great customer service from the specialists who helped me.
+            I would recommend to anyone who wants great dashboard that has great quality.
+Footer:     Profile IMG - Harold Tyler - Product Designer
+**/}
+
+function CommentBox({profileImage,brandImage,comment,username,userTitle,cardWith}) {
   return (
     <div className='commentbox-component d-flex justify-content-center' >
         <div className="card" style={{width:cardWith}}>

@@ -2,6 +2,16 @@
 import React from "react";
 import Title from "../Title";
 
+
+{/**
+Page break trial
+ex.
+
+Your next successful business starts now
+Join with more than 1.8 million people across 50,000 companies. 30-day free trial, cancel any time. No credit card required. 
+Start free trial , View live demo
+**/}
+
 function TrialVersionCard() {
   return (
     <div className="trial-version-component d-flex justify-content-center align-items-center flow-wrap">

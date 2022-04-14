@@ -6,6 +6,10 @@ import MoreFeature from "./MoreFeature";
 import PricingGeneralFeatures from "./PricingGeneralFeatures";
 
 
+{/**
+  HomePage items
+**/}
+
 function Content() {
   return (
     <div className="content-component container">

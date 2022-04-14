@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+{/**
+   Logo
+**/}
+
 function Logo({ src, alt, height, width }) {
   return (
     <Link to={"/"}>

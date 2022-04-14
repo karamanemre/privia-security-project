@@ -2,6 +2,16 @@ import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Masonry from "react-masonry-css";
 
+
+{/**
+Template for social media comments
+ex.
+
+Title:            Profile IMG - Name - Username
+Content:          ******
+Date:             5:54 PM - Oct 10, 2018
+**/}
+
 function SocialMediaCommentCard({ commentsList,perlinecard }) {
 
     const breakpointColumnsObj = {

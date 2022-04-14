@@ -4,6 +4,12 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
+
+{/**
+Footer
+**/}
+
+
 function Footer() {
   return (
     <footer className="footer-component d-flex justify-content-between flow-wrap container padding-top-5 padding-bottom-5">

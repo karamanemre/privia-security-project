@@ -1,3 +1,4 @@
+//NAVBAR Components
 .navbar {
   position: relative;
   .right-menu {
@@ -29,6 +30,8 @@
   }
 }
 
+
+//NAVBAR MENU ITEMS Component
 .navbar-menu-items {
   .items {
     ul {
@@ -70,6 +73,8 @@
   }
 }
 
+
+//HEADER Component
 .header-component {
   height: 100vh;
   background-image: url("../../public/img/Pattern.png");
@@ -92,6 +97,8 @@
   }
 }
 
+
+//TITLE Component
 .title-component {
   font-weight: 700;
   line-height: 69px;
@@ -108,6 +115,8 @@
   }
 }
 
+
+//DATA ANALYTICS Component
 .data-analytics {
   background-color: #fff;
   border-radius: 10px 10px 0 0;
@@ -118,6 +127,24 @@
     align-items: center;
     .title {
       text-align: left;
+    }
+    .dropdown{
+      width: auto;
+      height: 32px;
+      border: 1px solid #D1D0D6;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 5px;
+      .point{
+        background-color: #5843D9;
+        content: " ";
+        width: 8px;
+        height: 8px;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
     }
   }
 }
@@ -137,10 +164,13 @@
   }
 }
 
+
+// CONTENT Component
 .content-component {
   padding-top: 8rem;
   margin: 0 auto;
 }
+
 
 // COMBINED CLIPART Component
 .combined-clipart-component {
@@ -152,6 +182,7 @@
     left: 22px;
   }
 }
+
 
 //FEATURES Component  TODO width: 50%;
 .features-component {
@@ -167,6 +198,7 @@
     margin: -12px 0 0 -13px;
   }
 }
+
 
 //DATA ANALYTICS CARD Component
 .data-analytics-card-component {
@@ -233,6 +265,7 @@
   }
 }
 
+
 //ANALYTICS Component
 .analytics-component {
   .analytics-body {
@@ -241,6 +274,7 @@
     text-align: left;
   }
 }
+
 
 //MORE FEATURES Component
 .more-feature {
@@ -258,6 +292,7 @@
     }
   }
 }
+
 
 //COLLABORATE Component
 .collaborate-component {
@@ -291,6 +326,7 @@
   }
 }
 
+
 //COMMENTBOX Component
 .commentbox-component {
   .card {
@@ -301,6 +337,7 @@
     border-radius: 1rem;
   }
 }
+
 
 //BUTTON Component
 .button-component {
@@ -319,6 +356,7 @@
     }
   }
 }
+
 
 //MINI CARD Component
 .mini-card-component {
@@ -342,6 +380,7 @@
     margin-left: 3rem;
   }
 }
+
 
 //TRIAL VERSION CARD Component
 .trial-version-component {

@@ -4,6 +4,10 @@ import CornerTitle from "../CornerTitle";
 import SuccessLine from "../SuccessLine";
 import Brands from "../Brands";
 
+{/**
+  HomePage items
+**/}
+
 function Collaborate() {
   const imgPath = process.env.REACT_APP_COLLABORATE_IMAGE_FILE_PATH;
   const brandsImage = process.env.REACT_APP_BRANDS_IMAGE_FILE_PATH;

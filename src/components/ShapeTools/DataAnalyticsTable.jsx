@@ -1,5 +1,12 @@
 import React from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
+
+{/**
+   Data Analytics Table
+**/}
+
 
 function DataAnalytics() {
   return (
@@ -9,7 +16,13 @@ function DataAnalytics() {
           <h5>Data Analytics</h5>
           <small className="text-muted">See insight on how your business has changed over time</small>
         </div>
-        <div className="dropdown-bar">Dropdown bar</div>
+        <div className="dropdown-bar">
+          <div className="dropdown">
+            <span className="point"></span>
+            <span>Impressions</span>
+            <KeyboardArrowDownIcon/>
+          </div>
+        </div>
       </div>
       <div className="data d-flex justify-content-between align-items-center">
         <div className="item d-flex  flex-column ">

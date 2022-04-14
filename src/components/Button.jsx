@@ -1,5 +1,10 @@
 import React from "react";
 
+
+{/**
+   Button
+**/}
+
 function Button({ className, text,style}) {
   return (
     <a

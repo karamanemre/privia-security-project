@@ -3,6 +3,18 @@ import Button from "../Button";
 import SuccessLine from "../SuccessLine";
 import DangerousIcon from '@mui/icons-material/Dangerous';
 
+
+{/**
+Price card template
+ex.
+
+Price:            $23 / monthly
+Package name:     Standard
+Content:          All the basics for businesses that are just getting started.
+Meterials:        Single project use , Basic dashboard , All components included
+Footer:           Start free trial
+**/}
+
 function Pricing({
   color,
   price,

@@ -1,5 +1,10 @@
 import React from 'react'
 
+
+{/**
+  Combines two images
+**/}
+
 function CombinedClipart({exteriorPicture,interiorPicture}) {
   return (
     <div className='combined-clipart-component'>

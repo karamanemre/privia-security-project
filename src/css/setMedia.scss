@@ -63,4 +63,15 @@
       visibility: visible;
     }
   }
+
+  .header-component{
+    .container {
+      .data-analystic-container {
+        width: 80%;
+        position: absolute;
+        bottom: 0px;
+        left: 10%;
+      }
+    }
+  }
 }

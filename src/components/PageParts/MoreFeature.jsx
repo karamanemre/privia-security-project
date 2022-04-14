@@ -2,6 +2,11 @@ import React from "react";
 import CornerTitle from "../CornerTitle";
 import CombinedClipart from "../ShapeTools/CombinedClipart";
 
+
+{/**
+  HomePage items
+**/}
+
 function MoreFeature() {
   return (
     <div className="more-feature">

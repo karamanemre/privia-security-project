@@ -4,6 +4,11 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import CornerTitle from "../CornerTitle";
 import DataAnalyticsCard from "../ShapeTools/DataAnalyticsCard";
 
+
+{/**
+  HomePage items
+**/}
+
 function Analytics() {
   return (
     <div className="analytics-component">

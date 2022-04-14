@@ -1,6 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+{/**
+For little explanations
+ex.
+Title:      ICON - Articles
+Content:    Our best tips for launching and growing your creative business online.
+Footer:     Learn More >
+**/}
+
 function MiniCard({icon,title,content,buttonText,buttonLink}) {
   return (
     <div className='card mini-card-component mb-3'>

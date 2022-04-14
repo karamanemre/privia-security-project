@@ -4,6 +4,11 @@ import Navbar from "../Navbar/Navbar";
 import Title from "../Title";
 import Button from "../Button";
 
+
+{/**
+  HomePage items
+**/}
+
 function Header() {
   return (
     <div className="header-component">

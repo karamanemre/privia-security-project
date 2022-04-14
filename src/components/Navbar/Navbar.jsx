@@ -3,6 +3,11 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import NavbarMenuItems from "./NavbarMenuItems";
 import Logo from "../Logo";
 
+
+{/**
+  Navbar
+**/}
+
 function Navbar() {
   return (
     <nav className="navbar container ">
