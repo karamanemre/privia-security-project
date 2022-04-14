@@ -1,15 +1,14 @@
 import { useLocation } from "react-router";
 import "./App.css";
 import Dashboard from "./components/Dashboard";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   const { pathname } = useLocation();
 
   return (
     <div className="App">
-      {/* {(pathname !== "/" && pathname !== "/resources") && <Navbar />} */}
       <Dashboard />
       <Footer />
     </div>

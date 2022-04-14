@@ -1,8 +1,8 @@
 import React from "react";
-import Brands from "./Brands";
-import CommentBox from "./CommentBox";
-import CornerTitle from "./CornerTitle";
-import SuccessLine from "./SuccessLine";
+import CommentBox from "../Cards/CommentBox";
+import CornerTitle from "../CornerTitle";
+import SuccessLine from "../SuccessLine";
+import Brands from "../Brands";
 
 function Collaborate() {
   const imgPath = process.env.REACT_APP_COLLABORATE_IMAGE_FILE_PATH;

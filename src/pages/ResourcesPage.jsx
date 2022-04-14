@@ -1,13 +1,13 @@
 import React from "react";
 import Title from "../components/Title";
 import SearchIcon from "@mui/icons-material/Search";
-import Navbar from "../components/Navbar";
-import MiniCard from "../components/MiniCard";
+import Navbar from "../components/Navbar/Navbar";
 import DescriptionIcon from "@mui/icons-material/Description";
 import Article from "../components/Article";
-import TrialVersionCard from "../components/TrialVersionCard";
 import DriveFileMoveIcon from '@mui/icons-material/DriveFileMove';
 import ConstructionIcon from '@mui/icons-material/Construction';
+import TrialVersionCard from "../components/Cards/TrialVersionCard";
+import MiniCard from "../components/Cards/MiniCard";
 
 function ResourcesPage() {
   const imgPath = process.env.REACT_APP_RESOURCES_IMAGE_FILE_PATH;

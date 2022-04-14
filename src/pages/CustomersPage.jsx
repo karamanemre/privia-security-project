@@ -1,13 +1,12 @@
 import React from "react";
 import Brands from "../components/Brands";
-import CommentBox from "../components/CommentBox";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Title from "../components/Title";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import SocialMediaCommentCard from "../components/SocialMediaCommentCard";
-import Button from "../components/Button";
-import TrialVersionCard from "../components/TrialVersionCard";
+import TrialVersionCard from "../components/Cards/TrialVersionCard";
+import CommentBox from "../components/Cards/CommentBox";
+import SocialMediaCommentCard from "../components/Cards/SocialMediaCommentCard";
 
 function CustomersPage() {
   const imgPath = process.env.REACT_APP_COLLABORATE_IMAGE_FILE_PATH;

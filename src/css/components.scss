@@ -1,7 +1,31 @@
 .navbar {
+  position: relative;
   .right-menu {
     display: none;
+    position: absolute;
+    right: 0;
     cursor: pointer;
+    visibility: hidden;
+    &:hover .drop{
+      display: block;
+    }
+    .drop{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 10px;
+      top:30px;
+      background-color: #ffffff;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      opacity: 0.9;
+      border-radius: 0.3rem;
+      padding: 0.3rem;
+      width: max-content;
+      height: auto;
+      display: none;
+    }
   }
 }
 
@@ -12,6 +36,7 @@
       .item {
         margin-right: 15px;
         cursor: pointer;
+        color: black;
       }
       .products-item {
         position: relative;

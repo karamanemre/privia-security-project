@@ -1,6 +1,6 @@
 import React from "react";
-import Content from "../components/Content";
-import Header from "../components/Header";
+import Content from "../components/PageParts/Content";
+import Header from "../components/PageParts/Header";
 
 function HomePage() {
   return (

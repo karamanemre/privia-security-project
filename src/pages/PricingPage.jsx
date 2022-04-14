@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "../components/Button";
+import StatementCard from "../components/Cards/StatementCard";
 import CornerTitle from "../components/CornerTitle";
-import Navbar from "../components/Navbar";
-import PricingGeneralFeatures from "../components/PricingGeneralFeatures";
-import StatementCard from "../components/StatementCard";
+import Navbar from "../components/Navbar/Navbar";
+import PricingGeneralFeatures from "../components/PageParts/PricingGeneralFeatures";
 import Title from "../components/Title";
 
 function PricingPage() {

@@ -1,6 +1,6 @@
 import React from "react";
-import CombinedClipart from "./CombinedClipart";
-import CornerTitle from "./CornerTitle";
+import CornerTitle from "../CornerTitle";
+import CombinedClipart from "../ShapeTools/CombinedClipart";
 
 function MoreFeature() {
   return (

@@ -1,8 +1,7 @@
 import React from "react";
-import Button from "./Button";
-import CombinedClipart from "./CombinedClipart";
-import CornerTitle from "./CornerTitle";
-
+import Button from "../Button";
+import CornerTitle from "../CornerTitle";
+import CombinedClipart from "../ShapeTools/CombinedClipart";
 
 {/**
 Features component

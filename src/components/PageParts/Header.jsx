@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./Button";
-import DataAnalyticsTable from "./DataAnalyticsTable";
-import Navbar from "./Navbar";
-import Title from "./Title";
+import DataAnalyticsTable from "../ShapeTools/DataAnalyticsTable";
+import Navbar from "../Navbar/Navbar";
+import Title from "../Title";
+import Button from "../Button";
 
 function Header() {
   return (

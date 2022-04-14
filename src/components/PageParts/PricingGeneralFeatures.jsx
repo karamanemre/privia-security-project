@@ -1,6 +1,6 @@
 import React from "react";
-import Pricing from "./Pricing";
-import Title from "./Title";
+import Pricing from "../Cards/Pricing";
+import Title from "../Title";
 
 function PricingGeneralFeatures() {
   return (

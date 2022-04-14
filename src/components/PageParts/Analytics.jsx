@@ -1,8 +1,8 @@
 import React from "react";
-import CornerTitle from "./CornerTitle";
-import DataAnalyticsCard from "./DataAnalyticsCard";
 import CachedIcon from "@mui/icons-material/Cached";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import CornerTitle from "../CornerTitle";
+import DataAnalyticsCard from "../ShapeTools/DataAnalyticsCard";
 
 function Analytics() {
   return (

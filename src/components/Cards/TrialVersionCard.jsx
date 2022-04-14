@@ -1,7 +1,6 @@
 
 import React from "react";
-import Button from "./Button";
-import Title from "./Title";
+import Title from "../Title";
 
 function TrialVersionCard() {
   return (
