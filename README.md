@@ -20,8 +20,7 @@ To sort the cards
 
 ### `Bootstrap`
 
-
-Used to easily set the website to be "responsive", i.e. responsive to tablet, phone, desktop and any screen resolution
+I used it to easily set the website to be "responsive" i.e. tablet, phone, desktop and any screen resolution
 
 # Installation
 
