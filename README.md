@@ -1,3 +1,24 @@
+# About The Project
+A public website that promotes a company.There are things like the products of the company, the comments about the company, the products it has developed.
+
+# Dependencies Used
+
+### `React router`
+
+Used for page redirects
+
+### `Meterial UI Icon`
+
+Used for icon designs
+
+### `Masonary`
+
+To sort the cards
+
+### `Bootstrap`
+
+Used to easily set the website to be "responsive", i.e. responsive to tablet, phone, desktop and any screen resolution
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
