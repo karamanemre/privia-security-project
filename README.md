@@ -1,3 +1,6 @@
+# Live state
+<a href="https://priviaproject.emrekaraman.com.tr/">Live State</a>
+
 # About The Project
 A public website that promotes a company.There are things like the products of the company, the comments about the company, the products it has developed.
 
@@ -16,6 +19,7 @@ Used for icon designs
 To sort the cards
 
 ### `Bootstrap`
+
 
 Used to easily set the website to be "responsive", i.e. responsive to tablet, phone, desktop and any screen resolution
 
