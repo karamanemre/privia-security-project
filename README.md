@@ -27,8 +27,9 @@ Used to easily set the website to be "responsive", i.e. responsive to tablet, ph
 
 | Installation |                                                   |
 |-----------|---------------------------------------------------|
-| git clone https://github.com/karamanemre/privia-security-project.git             |
-
+| 1       |  git clone https://github.com/karamanemre/privia-security-project.git |
+| 2       |  npm install |
+| 3       |  npm start |
 
 
 # Getting Started with Create React App
