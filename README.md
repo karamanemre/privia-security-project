@@ -23,6 +23,14 @@ To sort the cards
 
 Used to easily set the website to be "responsive", i.e. responsive to tablet, phone, desktop and any screen resolution
 
+# Installation
+
+| Installation |                                                   |
+|-----------|---------------------------------------------------|
+| git clone https://github.com/karamanemre/privia-security-project.git             |
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
