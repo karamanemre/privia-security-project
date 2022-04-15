@@ -8,6 +8,9 @@ import CombinedClipart from "../ShapeTools/CombinedClipart";
 **/}
 
 function MoreFeature() {
+
+  const imgPath = process.env.REACT_APP_FEATURES_IMAGE_FILE_PATH
+
   return (
     <div className="more-feature">
       <div className="d-flex title">
@@ -66,7 +69,7 @@ function MoreFeature() {
             <div className="icon">
               <CombinedClipart
                 exteriorPicture={"./img/featuresImg/base-blue.png"}
-                interiorPicture={"./img/featuresImg/cloud-upload.png"}
+                interiorPicture={`${imgPath}/cloud-upload.png`}
               />
             </div>
             <div className="d-flex justify-content-left sub-title">
@@ -85,7 +88,7 @@ function MoreFeature() {
             <div className="icon">
               <CombinedClipart
                 exteriorPicture={"./img/featuresImg/Base.png"}
-                interiorPicture={"./img/featuresImg/cloud-upload.png"}
+                interiorPicture={`${imgPath}/security.png`}
               />
             </div>
             <div className="d-flex justify-content-left sub-title">

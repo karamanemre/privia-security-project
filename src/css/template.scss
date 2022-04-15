@@ -8,6 +8,12 @@ html{
     list-style: none !important;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0
+  }
+
 .margin-l-2{
     margin-left: 10px;
 }

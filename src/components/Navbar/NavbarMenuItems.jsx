@@ -4,18 +4,27 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Button from "../Button";
 
-
-{/**
+{
+  /**
   Navbar elements
-**/}
+**/
+}
 
-function NavbarMenuItems({listOrder}) {
+function NavbarMenuItems({ listOrder }) {
   const [isMove, setIsMove] = useState(false);
 
   return (
-    <div className={`navbar-menu-items d-flex ${listOrder ? listOrder : "justify-content-around"} align-items-center`}>
+    <div
+      className={`navbar-menu-items d-flex ${
+        listOrder ? listOrder : "justify-content-around"
+      } align-items-center`}
+    >
       <div className="items">
-        <ul className={`d-flex ${listOrder ? listOrder : "justify-content-between"} align-items-center`}>
+        <ul
+          className={`d-flex ${
+            listOrder ? listOrder : "justify-content-between"
+          } align-items-center`}
+        >
           <li className="item">About</li>
           <li
             className="products-item item"
@@ -41,13 +50,19 @@ function NavbarMenuItems({listOrder}) {
           </Link>
         </ul>
       </div>
-      <div className={`login-signup-button d-flex ${listOrder ? listOrder : "justify-content-center"} align-items-center`}>
+      <div
+        className={`login-signup-button d-flex ${
+          listOrder ? listOrder : "justify-content-center"
+        } align-items-center`}
+      >
         <div className="item">
-          <Button
-            text={"Login"}
-            className={"btn btn-link"}
-            style={{ width: "auto", height: "35px" }}
-          />
+          <Link to={"/login"}>
+            <Button
+              text={"Login"}
+              className={"btn btn-link text-dark"}
+              style={{ width: "auto", height: "35px" }}
+            />
+          </Link>
         </div>
         <div className="item">
           <Button

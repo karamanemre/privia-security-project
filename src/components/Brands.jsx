@@ -11,8 +11,8 @@ function Brands({ brandsImage }) {
   return (
     <div className="brands-component d-flex justify-content-around align-items-center flex-wrap">
       {brandsImage &&
-        brandsImage.map((brand) => (
-          <div className="brand">
+        brandsImage.map((brand,key) => (
+          <div className="brand" key={key}>
             <img
               src={brand}
               alt=""

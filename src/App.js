@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Dashboard />
-      <Footer />
+      {pathname !== "/login" &&  <Footer />}
     </div>
   );
 }
