@@ -22,6 +22,10 @@ To sort the cards
 
 I used it to easily set the website to be "responsive" i.e. tablet, phone, desktop and any screen resolution
 
+### `Formik`
+
+I used it for form operations
+
 # Installation
 
 | Installation |                                                   |
